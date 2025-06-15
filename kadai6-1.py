@@ -1,3 +1,9 @@
+# データの種類：家計調査（民間給与実態統計調査 民間給与実態統計 結果表）
+# 統計表ID：0003446838
+# エンドポイント：https://api.e-stat.go.jp/rest/3.0/app/json/getStatsData
+# このプログラムは、2020年の職業別民間給与実態統計に関する統計データを取得し、
+# pandasのDataFrameに変換して整形後、コンソールに出力する
+
 import requests
 import pandas as pd
 
